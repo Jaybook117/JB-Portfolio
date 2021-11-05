@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Jaylin Booker | Graphic Designer</title>
+    <!-- Adobe Fonts -->
+    <!-- Lust -->
+    <link rel="stylesheet" href="https://use.typekit.net/gsm4vmv.css">
+    <!-- Nunito Sans -->
+    <link rel="stylesheet" href="https://use.typekit.net/gsm4vmv.css">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/typography.css">
+    <link rel="stylesheet" href="css/utilities.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-box">
+                <div class="header-text">
+                    <h1 class="primary-heading-dark-grey">Take a look at some of my personal projects & client work.</h1>
+                    <div class="header-button">
+                        <a href="#study1" class="btn-primary">Take A Look</a>
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img src="img/puppy-treats-removebg-preview.png" alt="header image">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Bar -->
+    <div class="bar">
+        <div class="bar__content u-centered">
+            <img class="bar__logo" src="img/jb-logo-01.png" alt="logo image">
+            <input type="checkbox" id="inpNavToggle">
+            <label class="bar__nav-toggle" for="inpNavToggle">
+                <i class="material-icons">menu</i>
+            </label>
+            <nav class="nav">
+                <a class="nav__link" href="index.html">Home</a>
+                <a class="nav__link" href="about.html">About</a>
+                <a class="nav__link" href="work.html">Work</a>
+                <a class="nav__link" href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Header Javascript -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver(entries => {
+                document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+            }, {
+                threshold: 1
+            });
+            
+            observer.observe(document.querySelector(".header"));
+        });
+        </script>
+
+<!-- Case Study 1 Section -->
+<section class="study1" id="study1">
+    <div class="study1-box">
+        <div class="study1-image">
+            <img src="img/pexels2.jpg" alt="image">
+        </div>
+        <div class="study1-text">
+            <h2 class="secondary-heading-dark-grey margin-bottom-4">Case Study #1 - Project Name</h2>
+            <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+            <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+            <div class="study1-button">
+                <a href="#" class="btn-tertiary">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Case Study 2 Section -->
+<section class="study2" id="study2">
+    <div class="study2-box">
+        <div class="study2-image">
+            <img src="img/pexels2.jpg" alt="image">
+        </div>
+        <div class="study2-text">
+            <h2 class="secondary-heading-dark-grey margin-bottom-4">Case Study #2 - Project Name</h2>
+            <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+            <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+            <div class="study1-button">
+                <a href="#" class="btn-tertiary">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Showcase Section -->
+<section class="showcase" id="showcase">
+    <div class="container">
+        <div class="showcase-box">
+
+            <div class="showcase-item">
+                <img src="img/pexels1.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="showcase-item">
+                <img src="img/pexels2.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="showcase-item">
+                <img src="img/pexels3.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="showcase-item">
+                <img src="img/pexels1.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="showcase-item">
+                <img src="img/pexels2.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="showcase-item">
+                <img src="img/pexels3.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="showcase-item">
+                <img src="img/pexels1.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="showcase-item">
+                <img src="img/pexels2.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="showcase-item">
+                <img src="img/pexels3.jpg" alt="showcase image">
+                <h4 class="tertiary-heading-dark-grey">Showcase #1</h4>
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Case Study 1 Section -->
+<section class="study1" id="study3">
+    <div class="study1-box">
+        <div class="study1-image">
+            <img src="img/pexels2.jpg" alt="image">
+        </div>
+        <div class="study1-text">
+            <h2 class="secondary-heading-dark-grey margin-bottom-4">Case Study #3 - Project Name</h2>
+            <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+            <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+            <div class="study1-button">
+                <a href="#" class="btn-tertiary">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Case Study 2 Section -->
+<section class="study2" id="study4">
+    <div class="study2-box">
+        <div class="study2-image">
+            <img src="img/pexels2.jpg" alt="image">
+        </div>
+        <div class="study2-text">
+            <h2 class="secondary-heading-dark-grey margin-bottom-4">Case Study #4 - Project Name</h2>
+            <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+            <p class="primary-text-grey margin-bottom-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consectetur doloribus beatae debitis esse, reiciendis maxime distinctio perferendis. Rem odio culpa quaerat itaque.</p>
+            <div class="study2-button">
+                <a href="#" class="btn-tertiary">Contact Me</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/jb-logo-01.png" alt="image">
+                <p class="primary-text-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta provident harum optio assumenda, fugiat ullam odit deleniti fuga dolorum architecto iusto totam fugit quas.</p>
+                <p class="primary-text-grey">Copyright © 2021 Auto Detail - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3 class="tertiary-heading-dark-grey margin-bottom-1">Site Map</h3>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="about.html"><li>About</li></a>
+                    <a href="work.html"><li>Work</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3 class="tertiary-heading-dark-grey margin-bottom-1">Social Media</h3>
+                <a href="#" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="#" target="_blank"><li><i class="fab fa-twitter"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3 class="tertiary-heading-dark-grey margin-bottom-1">Contact Info</h3>
+                <a href="tel:#"><li>(111) 222 - 3333</li></a>
+                <a href="mailto:#"><li>example@example.com</li></a>
+                <a href="https://logo-genius.com/"><li>Developed By Logo Genius</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
