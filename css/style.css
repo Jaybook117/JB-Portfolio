@@ -231,7 +231,7 @@ body {
 /* Portrait 1 Section */
 .portrait-1 {
     height: 100vh;
-    background-image: url(../img/pexels1.jpg);
+    background-image: url(../img/Portrait-01.jpg);
     padding-top: var(--bar-height);
     box-sizing: border-box;
     background-size: cover;
@@ -242,7 +242,7 @@ body {
 /* Portrait 2 Section */
 .portrait-2 {
     height: 100vh;
-    background-image: url(../img/pexels2.jpg);
+    background-image: url(../img/Portrait-02.jpg);
     padding-top: var(--bar-height);
     box-sizing: border-box;
     background-size: cover;
@@ -253,7 +253,7 @@ body {
 /* Portrait 3 Section */
 .portrait-3 {
     height: 100vh;
-    background-image: url(../img/pexels3.jpg);
+    background-image: url(../img/Portrait-03.jpg);
     padding-top: var(--bar-height);
     box-sizing: border-box;
     background-size: cover;
